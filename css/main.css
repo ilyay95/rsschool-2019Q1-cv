@@ -8,6 +8,7 @@ body {
   height:100%;
 }
 
+
 main, header, footer{ 
   box-sizing: border-box;
   max-width: 1024px;
@@ -39,15 +40,36 @@ h3 {
 }
 
 section {
-  padding: 0 1em 1em;
-  margin-top: 0;
+   padding: 0 1em 1em;
+   margin-top: 0;
 }
 
 section p{
- text-indent: 1.5em;
- text-align: justify;
+  text-indent: 1.5em;
+  text-align: justify;
 }
 
+.c-photo {
+  padding: 1em 0 0 1em;
+}
 
+.photo {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+.position{
+  padding: 1em;
+  font-size: 1em;
+  text-transform: uppercase;
+  text-align: center;
+  color: dsl();
+}
+
+.experience ul{
+  padding: 0 1em 1em;
+}
 
 
